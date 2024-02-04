@@ -14,7 +14,7 @@ h1{
     width: 450px;
     height: 220px;
     border: solid 3px green;
-    border-radius: 5px;
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -29,7 +29,7 @@ h1{
     width: 450px;
     height: 220px;
     border: solid 3px green;
-    border-radius: 5px;
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     align-content: center;
