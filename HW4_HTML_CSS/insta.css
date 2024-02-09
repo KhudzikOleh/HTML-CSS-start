@@ -1,0 +1,115 @@
+.bigbox {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    height: 55vh;
+    width: 30vw;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.box2 {
+    height: 7vh;
+    width: 30vw;
+    border: 1px solid silver;
+    border-radius: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 13vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+img {
+    height: 6vh;
+    width: 14vw;
+
+}
+
+.registr {
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+form{
+    width: 30vw;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 20vw;
+    height: 3vh;
+    text-overflow: ellipsis;
+}
+input[type="text"]:focus{
+    outline: 1px solid black;
+}
+
+input[type="password"] {
+    width: 20vw;
+    height: 3vh;
+    text-overflow: ellipsis;
+}
+input[type="password"]:focus{
+    outline: 1px solid black;
+}
+
+.button {
+    color: white;
+    background-color: #01c5de;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 21vw;
+    height: 5vh;
+    margin-left: 66px;
+
+}
+.end{
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
