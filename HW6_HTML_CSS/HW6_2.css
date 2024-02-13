@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.one {
+    grid-area: A;
+}
+
+.two {
+    grid-area: B;
+}
+
+.three {
+    grid-area: C;
+}
+
+.four {
+    grid-area: D;
+}
+
+.five {
+    grid-area: E;
+}
+
+.six {
+    grid-area: F;
+}
+
+section {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-areas:
+    "A A A A"
+    "B B B F"
+    "C D E F";
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-gap: 2vh;
+}
+
+.one, .two, .three, .four, .five, .six {
+    background-color: gray;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

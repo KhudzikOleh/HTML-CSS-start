@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) and (max-height: 1024px){
+    section{grid-template-areas:
+    "Banner Banner Banner Banner"
+    "Article1 Article2 Article3 Article4"
+    "Article1 Article2 Article3 Article4"
+    "Footer Footer Footer Footer";
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 4fr 2fr 2fr 1fr;
+    }
+    section>div{
+        font-size: 30px;
+    }
+    .link{
+    font-size: 20px;
+    }
+    .main1,.main2,.main3,.main4{
+        writing-mode: vertical-lr;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}

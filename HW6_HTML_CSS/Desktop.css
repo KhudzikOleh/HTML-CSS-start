@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+nav {
+    width: 50vw;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.link {
+    background-color: deepskyblue;
+    margin-left: 5px;
+    color: white;
+    width: 10vw;
+    height: 7vh;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.head {
+    grid-area: Banner;
+    margin-bottom: 10px;
+}
+
+.main1 {
+    grid-area: Article1;
+}
+
+.main2 {
+    grid-area: Article2;
+}
+
+.main3 {
+    grid-area: Article3;
+}
+
+.main4 {
+    grid-area: Article4;
+}
+
+.footer {
+    grid-area: Footer;
+    display: flex;
+    justify-content: center;
+
+}
+
+section {
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+    "Banner Banner"
+    "Article1 Article2"
+    "Article3 Article4"
+    "Footer Footer";
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 4fr 2fr 2fr 1fr;
+    grid-gap: 2vh;
+
+}
+section>div{
+    background-color: deepskyblue;
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+span{
+    margin:20px;
+}

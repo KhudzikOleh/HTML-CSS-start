@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.head {
+    grid-area: A;
+}
+
+.main {
+    grid-area: B;
+}
+
+.footer {
+    grid-area: C;
+}
+
+section {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+            "A A"
+            "B C";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 4fr;
+    grid-gap: 2vh;
+}
+.head, .main ,.footer{
+    background: gray;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
