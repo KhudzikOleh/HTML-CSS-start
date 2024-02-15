@@ -1,0 +1,483 @@
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: #19191B;
+}
+
+.one {
+    background: #19191B;
+    height: 95vh;
+    width: 100vw;
+}
+
+.box1 {
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+}
+
+header > .box1 > .title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3vh;
+    color: #FFF;
+    margin-left: 8px;
+}
+
+.img1 {
+    width: 40px;
+    height: 40px;
+    margin-left: 7vw;
+}
+
+nav {
+    height: 15vh;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 2vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+}
+
+.box3 {
+    height: 15vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header > .box3 > button {
+    background: #19191B;
+    border: 1px solid #FFF;
+    height: 5vh;
+    width: 11vw;
+    border-radius: 5px;
+    margin-right: 9vw;
+}
+
+.button {
+    color: #FFF;
+    font-size: 2vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box2main {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img2 {
+    width: 40vw;
+    height: 80vh;
+    padding-right: 20vh;
+
+
+}
+
+main {
+    display: flex;
+
+}
+
+.box1main {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 9vw;
+
+}
+
+.titlebox1main {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vh;
+    width: 30vw;
+    margin: 0;
+    padding-top: 15vh;
+    line-height: 9vh;
+
+}
+
+.text1main {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    margin-left: 0;
+    width: 37vw;
+    margin-bottom: 5vh;
+    line-height: 4vh;
+
+
+}
+
+.buttonmain {
+    border-radius: 4px;
+    background: #5454D4;
+    width: 11vw;
+    height: 6vh;
+    color: #FFF;
+    font-size: 2vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding-left: 1.3vw;
+    margin-bottom: 89px;
+}
+
+.two {
+    background: #19191B;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sectiontwo-boxing {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+}
+
+.sectwobox1 {
+    width: 50vw;
+    margin: 0;
+}
+
+.sectwobox1 > h2 {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vh;
+    line-height: 6vw;
+    margin-top: 0;
+    margin-left: 9vw;
+}
+
+.sectwobox2 {
+    width: 50vw;
+    height: 8vh;
+}
+
+.pTwoS {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    line-height: 3vw;
+    margin-left: 10vw;
+}
+
+.img3 {
+    margin-top: 10vh;
+    padding-left: 9vw;
+    height: 75vh;
+    width: 82vw;
+}
+
+.three {
+    height: 100vh;
+    width: 100vw;
+}
+
+.titlethree > h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vh;
+    line-height: 5vw;
+    margin-top: 15vh;
+    margin-bottom: 0;
+}
+
+.container1 {
+    height: 70vh;
+    padding: 0 9vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7vh;
+}
+
+.rubik {
+    height: 35vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.code {
+    height: 69px;
+    width: 69px;
+    background-color: rgba(84, 84, 212, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer {
+    height: 69px;
+    width: 69px;
+    background-color: rgba(240, 64, 55, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code2 {
+    height: 69px;
+    width: 69px;
+    background-color: rgba(254, 220, 90, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aling {
+    height: 69px;
+    width: 69px;
+    background-color: rgba(254, 220, 90, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera {
+    height: 69px;
+    width: 69px;
+    background-color: rgba(84, 84, 212, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    height: 69px;
+    width: 69px;
+    background-color: rgba(240, 64, 55, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 3vh;
+    line-height: normal;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pThree {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 2vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 3vh;
+    letter-spacing: -0.5px;
+    width: 20vw;
+    margin-left: 0;
+}
+
+.four {
+    height: 150vh;
+    width: 100vw;
+
+}
+
+.boxfour {
+    margin-top: 7vh;
+    width: 84vw;
+    height: 52vh;
+    margin-bottom: 26vh;
+    margin-left: 9vw;
+}
+
+.textBox {
+    height: 23vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #FFF;
+    line-height: normal;
+    font-size: 6vh;
+}
+
+.pictureFour {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boximg {
+    width: 27vw;
+    height: 30vh;
+    border-radius: 14px;
+    background: #1E1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FourImg {
+    width: 24vw;
+    height: 25vh;
+}
+
+.footerFour {
+    height: 50vh;
+    width: 100vw;
+    background: rgba(30, 30, 32, 0.50);
+    position: relative;
+}
+
+h5 {
+    color: #FFF;
+    font-size: 6vh;
+    line-height: normal;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 57vw;
+    margin: 0;
+    position: absolute;
+    left: 9vw;
+    top: 19vh;
+
+}
+
+input {
+    width: 14vw;
+    height: 6vh;
+    border-radius: 5px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-size: 2vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 78vw;
+    top: 22vh;
+}
+
+.end {
+    height: 19vh;
+    display: flex;
+    position: relative;
+}
+
+.title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3vh;
+    color: #FFF;
+    margin-left: 8px;
+}
+
+.box33 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 9vw;
+    top: 5vh;
+}
+
+.finish {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4vh;
+    width: 20vw;
+    height: 4vh;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 72vw;
+    top:5vh;
+}
+
+.img33 {
+    width: 40px;
+    height: 40px;
+
+}
+
