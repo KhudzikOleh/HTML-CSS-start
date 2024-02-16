@@ -75,14 +75,16 @@ nav {
     align-items: center;
 
 }
-
-.pa{
+.pa:nth-child(1){
+    color: #5454D4
+}
+.pa {
     color: rgba(255, 255, 255, 0.70);
     font-size: 2vh;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 40px;
+    margin-left: 2.77vw;
 }
 
 .box3 {
@@ -242,11 +244,13 @@ main {
     height: 100vh;
     width: 100vw;
 }
-.titlethree{
+
+.titlethree {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .titlethree > h3 {
     color: #FFF;
     text-align: center;
@@ -422,9 +426,11 @@ h4 {
     position: relative;
 
 }
-.happyend{
+
+.happyend {
     display: none;
 }
+
 h5 {
     color: #FFF;
     font-size: 6vh;
@@ -498,9 +504,11 @@ input {
     left: 72vw;
     top: 5vh;
 }
-.finishmobile{
+
+.finishmobile {
     display: none;
 }
+
 .img33 {
     width: 40px;
     height: 40px;
