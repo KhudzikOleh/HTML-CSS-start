@@ -1,0 +1,263 @@
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    .box2 {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    .img1 {
+        width: 27px;
+        height: 27px;
+        margin-left: 13vw;
+    }
+
+    header > .box1 > .title {
+        margin-left: 4px;
+        font-size: 4vh;
+    }
+
+    .one {
+        height: 154vh;
+        width: 100vw;
+        background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img2 {
+        width: 100vw;
+        height: 60vh;
+        padding: 0;
+
+    }
+
+    .box2main {
+
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .titlebox1main {
+
+        font-size: 6vh;
+        line-height: 150%;
+        width: 70vw;
+        padding-top: 0;
+        padding-bottom: 6vh;
+
+    }
+
+    .box1main {
+        width: 90vw;
+        height: 71vh;
+        margin-left: 6vw;
+
+    }
+
+    .text1main {
+        font-size: 4.2vw;
+        line-height: 150%;
+        width: 80vw;
+        padding-bottom: 6vh;
+        margin: 0;
+    }
+
+    .buttonmain {
+        width: 44vw;
+        height: 6.5vh;
+        font-size: 2.4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .two {
+        width: 90vw;
+        height: 83vh;
+        margin-left: 6vw;
+    }
+
+    .img3 {
+        padding: 0;
+        height: 27vh;
+        width: 88vw;
+        margin-left: 0;
+    }
+
+    .sectiontwo-boxing {
+        width: 90vw;
+        flex-direction: column;
+        height: 30vh;
+        padding: 0;
+    }
+
+    .sectwobox1 > h2 {
+        font-size: 5vh;
+        width: 70vw;
+        line-height: 150%;
+       margin-left: 0;
+    }
+
+    .pTwoS {
+        font-size: 4.2vw;
+        line-height: 150%;
+        width: 85vw;
+        margin-left: 0;
+
+
+    }
+
+    .three {
+        height: 327vh;
+
+    }
+
+    .titlethree > h3 {
+        line-height: 150%;
+        font-size: 9.6vw;
+        Font-weight: 400;
+        display: flex;
+        text-align: start;
+        margin-top: 0;
+        margin-left: 6vw;
+        width: 100vw;
+
+
+    }
+
+    h3 {
+        width: 70vw;
+    }
+
+    .container1 {
+        height: 290vh;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .titlethree {
+        height: 20vh;
+    }
+
+    .rubik {
+        width: 100vw;
+        height: 48vh;
+    }
+
+    .pThree {
+        width: 62vw;
+        font-size: 4.26vw;
+        line-height: 7.46vw;
+    }
+
+    .four {
+        height: 260vh;
+    }
+
+    .textBox {
+        margin-top: 0;
+        margin-left: 6vw;
+    }
+
+    .boxfour {
+        margin-left: 0;
+    }
+
+    .pictureFour {
+        width: 100vw;;
+        height: 44vh;
+        background-color: #1E1E20;
+        border-radius: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boximg {
+        display: none;
+    }
+
+    .happyend {
+        width: 87vw;
+        height: 37vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerFour {
+        height: 62vh;
+    }
+
+    h5 {
+        color: #FFF;
+        font-size: 9.6vw;
+        line-height: 150%;
+        width: 90vw;
+        top: 11vh;
+    }
+
+    input {
+        height: 6.59vh;
+        width: 44vw;
+        top: 43vh;
+        left: 5vw;
+        color: #FFF;
+        text-align: center;
+        font-size: 4vw;
+
+    }
+
+    .img33 {
+        width: 27px;
+        height: 27px;
+    }
+
+    .title {
+        font-size: 7.46vw;
+    }
+
+    .box33 {
+        top: 20vh;
+        left: 32vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .finish {
+        font-size: 2.69vh;
+        width: 70vw;
+        top: 63vh;
+        left: 14vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .finishmobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 30vh;
+        left: 25vw;
+    }
+
+    .textfinish {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.7vh;
+        line-height: 4.2vh;
+    }
+}

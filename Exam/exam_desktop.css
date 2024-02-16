@@ -21,7 +21,8 @@
     font-weight: 900;
     font-style: normal;
 }
-.lato-heavy{
+
+.lato-heavy {
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -75,7 +76,7 @@ nav {
 
 }
 
-p {
+.pa{
     color: rgba(255, 255, 255, 0.70);
     font-size: 2vh;
     font-family: "Lato", sans-serif;
@@ -123,8 +124,7 @@ header > .box3 > button {
     width: 40vw;
     height: 80vh;
     padding-right: 20vh;
-
-
+    margin-bottom: 10vh;
 }
 
 main {
@@ -152,7 +152,6 @@ main {
     margin: 0;
     padding-top: 15vh;
     line-height: 9vh;
-
 }
 
 .text1main {
@@ -162,9 +161,10 @@ main {
     font-style: normal;
     font-size: 2vh;
     margin-left: 0;
-    width: 37vw;
+    width: 27.4vw;
     margin-bottom: 5vh;
     line-height: 4vh;
+    text-align: start;
 
 
 }
@@ -186,7 +186,7 @@ main {
 }
 
 .two {
-    background: #19191B;
+
     height: 100vh;
     width: 100vw;
 }
@@ -195,11 +195,12 @@ main {
     height: 15vh;
     width: 100vw;
     display: flex;
+    margin-top: 10vh;
 }
 
 .sectwobox1 {
     width: 50vw;
-    margin: 0;
+
 }
 
 .sectwobox1 > h2 {
@@ -208,9 +209,10 @@ main {
     font-weight: 400;
     font-style: normal;
     font-size: 7vh;
-    line-height: 6vw;
+    line-height: 9vh;
     margin-top: 0;
     margin-left: 9vw;
+    width: 30vw;
 }
 
 .sectwobox2 {
@@ -226,6 +228,7 @@ main {
     font-size: 2vh;
     line-height: 3vw;
     margin-left: 10vw;
+    width: 30vw;
 }
 
 .img3 {
@@ -239,7 +242,11 @@ main {
     height: 100vh;
     width: 100vw;
 }
-
+.titlethree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .titlethree > h3 {
     color: #FFF;
     text-align: center;
@@ -250,6 +257,7 @@ main {
     line-height: 5vw;
     margin-top: 15vh;
     margin-bottom: 0;
+    width: 40vw;
 }
 
 .container1 {
@@ -350,8 +358,8 @@ h3 {
     font-style: normal;
     line-height: 3vh;
     letter-spacing: -0.5px;
-    width: 20vw;
     margin-left: 0;
+    width: 14.5vw;
 }
 
 .four {
@@ -361,18 +369,20 @@ h3 {
 }
 
 .boxfour {
-    margin-top: 7vh;
     width: 84vw;
-    height: 52vh;
-    margin-bottom: 26vh;
+    height: 100vh;
     margin-left: 9vw;
 }
 
 .textBox {
     height: 23vh;
+    margin-top: 22vh;
+    margin-bottom: 11vh;
+    display: flex;
 
 }
-h4{
+
+h4 {
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -380,15 +390,18 @@ h4{
     line-height: normal;
     font-size: 6vh;
 }
+
 .pictureFour {
-    height: 30vh;
+    height: 40vh;
     display: flex;
     justify-content: space-around;
+
+
 }
 
 .boximg {
     width: 27vw;
-    height: 30vh;
+    height: 40vh;
     border-radius: 14px;
     background: #1E1E20;
     display: flex;
@@ -399,7 +412,7 @@ h4{
 
 .FourImg {
     width: 24vw;
-    height: 25vh;
+    height: 35vh;
 }
 
 .footerFour {
@@ -407,8 +420,11 @@ h4{
     width: 100vw;
     background: rgba(30, 30, 32, 0.50);
     position: relative;
-}
 
+}
+.happyend{
+    display: none;
+}
 h5 {
     color: #FFF;
     font-size: 6vh;
@@ -416,7 +432,7 @@ h5 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 57vw;
+    width: 40vw;
     margin: 0;
     position: absolute;
     left: 9vw;
@@ -445,6 +461,7 @@ input {
     height: 19vh;
     display: flex;
     position: relative;
+
 }
 
 .title {
@@ -479,9 +496,11 @@ input {
     justify-content: end;
     position: absolute;
     left: 72vw;
-    top:5vh;
+    top: 5vh;
 }
-
+.finishmobile{
+    display: none;
+}
 .img33 {
     width: 40px;
     height: 40px;
