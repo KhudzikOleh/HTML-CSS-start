@@ -116,21 +116,18 @@ header > .box3 > button {
 .box2main {
     width: 50vw;
     height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 
 }
 
 .img2 {
-    width: 40vw;
     height: 80vh;
-    padding-right: 20vh;
-    margin-bottom: 10vh;
+
 }
 
 main {
     display: flex;
+    justify-content: space-between;
 
 }
 
